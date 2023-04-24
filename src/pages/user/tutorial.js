@@ -1,20 +1,13 @@
-import React from 'react'
-import TutorialCarousel from "../../commons/TutorialCarousel"
-import puppie1 from "../../../public/puppie1.jpeg";
-import puppie3 from "../../../public/puppie3.jpeg";
-import puppie4 from "../../../public/puppie4.jpeg";
+import React from "react";
+import TutorialCarousel from "../../commons/TutorialCarousel";
+
 import { Box, Typography } from "@mui/material";
 import axios from "axios";
-import { useEffect } from 'react';
+import { useEffect } from "react";
 
 const tutorial = () => {
   const [language, setLanguage] = React.useState("");
-  // const images = [
-  //   { id: 1, src: puppie1, alt: "Image 1" },
-  //   { id: 2, src: puppie3, alt: "Image 2" },
-  //   { id: 3, src: puppie4, alt: "Image 3" },
-  // ];
-
+ 
   useEffect(() => {
     const fetchLanguage = async () => {
       try {
@@ -211,7 +204,6 @@ const tutorial = () => {
       </Box>
     </>
   );
-}
+};
 
-
-export default tutorial
+export default tutorial;

@@ -58,13 +58,13 @@ const index = () => {
         >
           Teams
         </Button>
-        <Button
+        {/* <Button
           sx={{ marginRight: "10px" }}
           startIcon={<PlayersIcon />}
           onClick={() => changeActualComponent("players")}
         >
           Team players
-        </Button>
+        </Button> */}
 
         <Button
           sx={{ marginRight: "10px" }}

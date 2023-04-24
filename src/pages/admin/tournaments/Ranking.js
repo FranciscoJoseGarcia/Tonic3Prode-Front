@@ -81,7 +81,7 @@ const Ranking = () => {
               return (
                 <TableRow key={ranking._id}>
                   <TableCell>{index + 1}</TableCell>
-                  <TableCell>{ranking.userId.username}</TableCell>
+                  <TableCell>{ranking.userId?.username}</TableCell>
                   <TableCell>{ranking.country}</TableCell>
                   <TableCell>{ranking.score}</TableCell>
                 </TableRow>
